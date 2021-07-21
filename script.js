@@ -1,6 +1,6 @@
 
 function blush(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -37,7 +37,7 @@ document.body.append(userList);
 }
 
 function Bronzer(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -71,7 +71,7 @@ document.body.append(userList);
 }
 
 function Eyebrow(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyebrow',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyebrow',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -105,7 +105,7 @@ document.body.append(userList);
 }
 
 function Eyeliner(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeliner',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeliner',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -139,7 +139,7 @@ document.body.append(userList);
 }
 
 function Eyeshadow(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeshadow',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeshadow',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -173,7 +173,7 @@ document.body.append(userList);
 }
 
 function Foundation(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -207,7 +207,7 @@ document.body.append(userList);
 }
 
 function Lipliner(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -241,7 +241,7 @@ document.body.append(userList);
 }
 
 function Lipstick(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -275,7 +275,7 @@ document.body.append(userList);
 }
 
 function Mascara(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=mascara',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=mascara',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
@@ -309,7 +309,7 @@ document.body.append(userList);
 }
 
 function Nail_polish(){
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish',{
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish',{
         method:"GET"
     })                                                              //fetches the data from the server
     .then(data => data.json())                                      //converts data into the json file
