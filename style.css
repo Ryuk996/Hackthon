@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+    
+    background: linear-gradient(to right top, #d01031, #d60054, #d1007a, #be01a1, #9836c5, #9f3bc7, #a540c9, #ac45cb, #d93cad, #f2458e, #fc5c73, #fb775f);;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.user-list{
+    
+    display:grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    gap:10px;
+}
+.user-container{
+    display:grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    gap:10px;
+    max-width:300px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px black; 
+  
+    transition: 0.2s;
+    
+}
+.content{
+    color: rgb(6, 10, 10);
+    gap: 10px;
+    padding: 5px;
+}
+.text1{
+    font-size: 5px;
+}
+.time{
+    color: rgb(10, 2, 2);
+}
+.des{
+    font-size: 5px;
+    font-weight: lighter;
+}
+.image{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.user-container:hover {
+    transform: scale(1.1);
+ 
+}
+.card{
+    
+    gap:10px;
+}
+.text{
+    color: rgb(238, 85, 85);
+    font-size:30px ;
+}
+
+.macard {
+    background:url("https://previews.123rf.com/images/belchonock/belchonock1906/belchonock190612672/125157259-set-of-luxury-makeup-products-on-white-background-flat-lay.jpg");
+    border-radius: 24px;
+    padding: 24px;
+    color: #181059;
+    font-family: "Inter", sans-serif;
+    transition: all 0.2s;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 200px;
+  }
+  .macard:hover {
+    background: url("https://previews.123rf.com/images/progressman/progressman1905/progressman190500107/122689676-makeup-products-and-accessories-with-pink-gift-box-on-white-background-top-view-festive-flat-lay-com.jpg");
+    color: #ffffff;
+  }
+  .img{
+      height: 50px;
+      width:50px ;
+  }
